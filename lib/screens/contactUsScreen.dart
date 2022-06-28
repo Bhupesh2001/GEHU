@@ -7,16 +7,16 @@ class ContactUsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal,
+      backgroundColor: Colors.white,
       body: ContactUs(
-        cardColor: Colors.white,
-        textColor: Colors.teal.shade900,
+        cardColor: const Color(0xDA4285F4),
+        textColor: Colors.white,
         logo: const NetworkImage(
             "https://www.gehu.ac.in/content/dam/geu/pdf/notice/geu_logo.png"),
         companyName: 'Graphic Era University',
-        companyColor: Colors.redAccent.shade200,
+        companyColor: Colors.black54,
         tagLine: 'Dehradun',
-        taglineColor: Colors.teal.shade100,
+        taglineColor: Colors.black54,
         dividerThickness: 5,
         website: 'https://www.gehu.ac.in/',
         phoneNumber: '+917617770113',
